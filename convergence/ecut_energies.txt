@@ -1,0 +1,14 @@
+ecut = 10
+!    total energy              =     -95.11357134 Ry
+ecut = 15
+!    total energy              =     -95.13481275 Ry
+ecut = 20
+!    total energy              =     -95.14022569 Ry
+ecut = 25
+!    total energy              =     -95.14153524 Ry
+ecut = 30
+!    total energy              =     -95.14179211 Ry
+ecut = 35
+!    total energy              =     -95.14182718 Ry
+ecut = 40
+!    total energy              =     -95.14189140 Ry

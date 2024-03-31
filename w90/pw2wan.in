@@ -1,0 +1,9 @@
+&INPUTPP
+outdir        = '../tmp/'
+prefix        = 'alp'
+seedname      = 'alp'
+write_unk     = .true.
+write_mmn     = .true.
+write_amn     = .true.
+write_spn     = .true.
+/
