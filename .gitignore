@@ -8,6 +8,8 @@
 /bands/alp.bands.gnu
 /bands/alp.bands.rap
 
+/bcd/result-*
+
 /convergence/.ipynb_checkpoints
 /convergence/*.in
 /convergence/*.out
