@@ -1,5 +1,5 @@
 
-     Program PW2WANNIER v.6.7MaX starts on 23Mar2024 at 18:27:40 
+     Program PW2WANNIER v.6.7MaX starts on  4Apr2024 at 16:35:40 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -48,28 +48,25 @@
   - Real lattice is ok
   - Reciprocal lattice is ok
   - K-points are ok
-
-
- ****** begin WARNING ****** 
-
- The pw.x calculation was done with non-collinear spin 
- but spinor = T was not specified in the wannier90 .win file!
- Please set spinor = T and rerun wannier90.x -pp  
-
- ******  end WARNING  ****** 
-
-
   - Number of wannier functions is ok ( 16)
   - All guiding functions are given 
 
  Projections:
     0.000000    0.000000    0.000000 -3  1  1    1.000000
+    0.000000    0.000000    0.000000 -3  1  1    1.000000
+    0.000000    0.000000    0.000000 -3  2  1    1.000000
     0.000000    0.000000    0.000000 -3  2  1    1.000000
     0.000000    0.000000    0.000000 -3  3  1    1.000000
+    0.000000    0.000000    0.000000 -3  3  1    1.000000
+    0.000000    0.000000    0.000000 -3  4  1    1.000000
     0.000000    0.000000    0.000000 -3  4  1    1.000000
    -0.250000    0.250000    0.250000 -3  1  1    1.000000
+   -0.250000    0.250000    0.250000 -3  1  1    1.000000
+   -0.250000    0.250000    0.250000 -3  2  1    1.000000
    -0.250000    0.250000    0.250000 -3  2  1    1.000000
    -0.250000    0.250000    0.250000 -3  3  1    1.000000
+   -0.250000    0.250000    0.250000 -3  3  1    1.000000
+   -0.250000    0.250000    0.250000 -3  4  1    1.000000
    -0.250000    0.250000    0.250000 -3  4  1    1.000000
 
   Reading data about k-point neighbours 
@@ -797,15 +794,15 @@
   ------------
 
 
-     init_pw2wan  :      2.88s CPU      3.25s WALL (       1 calls)
-     compute_amn  :     34.78s CPU     34.87s WALL (       1 calls)
-     compute_mmn  :    150.50s CPU    150.92s WALL (       1 calls)
-     write_unk    :      1.40s CPU      5.20s WALL (       1 calls)
+     init_pw2wan  :      3.00s CPU      4.63s WALL (       1 calls)
+     compute_amn  :     68.41s CPU     68.54s WALL (       1 calls)
+     compute_mmn  :    149.51s CPU    150.25s WALL (       1 calls)
+     write_unk    :      1.58s CPU     16.84s WALL (       1 calls)
 
-     PW2WANNIER   :   3m11.64s CPU   3m16.33s WALL
+     PW2WANNIER   :   3m44.55s CPU   4m 2.46s WALL
 
 
-   This run was terminated on:  18:30:56  23Mar2024            
+   This run was terminated on:  16:39:42   4Apr2024            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

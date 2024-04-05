@@ -1,12 +1,12 @@
 num_bands     = 16
-num_wann      = 8
+num_wann      = 16
 num_iter      = 100
 iprint        = 5
 
-dis_win_max   =   6
+dis_win_max   =   20
 dis_froz_max  =   5.0231
 dis_num_iter  =  100
-!spinor = T
+spinors = true
 
 
 wannier_plot  =  true

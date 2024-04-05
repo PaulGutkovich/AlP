@@ -12,9 +12,13 @@
 /convergence/*.in
 /convergence/*.out
 
+/w90/.ipynb_checkpoints
 /w90/alp.amn
+/w90/alp.chk
 /w90/alp.eig
 /w90/alp.mmn
 /w90/alp.nnkp
 /w90/alp.spn
+/w90/*.xsf
+/w90/alp_band.*
 /w90/*.NC

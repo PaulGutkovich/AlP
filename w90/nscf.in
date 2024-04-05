@@ -18,7 +18,7 @@ ecutrho       = 240
 nbnd          = 16
 noncolin      = .true.
 lspinorb      = .true.
-nosym         = .false.
+nosym         = .true.
 /
 &ELECTRONS
 mixing_beta   = 0.70
